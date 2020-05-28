@@ -1,0 +1,116 @@
+html{
+    min-height: 100%;
+}
+
+body{
+    background: url('./img/background1.png');
+    background-color: darkred;
+    background-size: cover;
+    font-size: 12px;
+    font-family: Roboto, sans-serif;
+    line-height: 20px;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.root{
+    width:600px;
+    margin: 100px auto;
+    margin-top: 200px;
+    
+}
+.bg{
+    border-radius: 7px;
+    background-color: #ffffff;
+    text-align: center;
+    box-shadow: 0 22px 50px rgba(14,21,47, .2), 0 8px 20px rgba(14,21,47, .2);
+    overflow: hidden;
+    width:70%;
+    
+    
+}
+.bg-item{
+    padding: 15px 45px 15px 30px;
+    cursor: pointer;
+    position: relative;
+    display:flex;
+    align-items: center;
+    border-bottom: 1px solid #dedede;
+    
+}
+.card-title{
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    
+}
+.bg-item_active::after{
+    background: url('./img/check.svg');
+    right:20px;
+    position: absolute;
+    width:20px;
+    height:30px;
+    background-size: contain;
+    content:'';
+    top:50%;
+}
+.card{
+    width:50px;
+    margin-right: 2em;
+}
+.dots__item {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #dedede;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px 2px;
+  }
+  
+  .dots__item_active {
+    background: #aaa;}
+
+.button{
+    background-color:#5A8BDD;
+    padding: 15px;
+    display: relative;
+    text-decoration: none;
+    display:block;
+    transition: background 0.15s ease-in-out;
+}
+.button-text{
+    color:white;
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 5px;
+    display:inline-block;
+    letter-spacing: 3px;
+}
+.button-icon{
+    vertical-align: middle;
+    display:inline-block;
+    height:10px;
+}
+bg-item:hover {
+    background: #f1f1f1;
+}
+.card-title1{
+    color: #aaa;
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.card-title3{
+    color: #aaa;
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.card-title2{
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: 1.3em;
+}
